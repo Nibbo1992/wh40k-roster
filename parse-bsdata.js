@@ -1,7 +1,7 @@
 
 import fs from 'fs-extra';
 import path from 'path';
-import glob from 'glob';
+import { glob } from 'glob';
 import { XMLParser } from 'fast-xml-parser';
 
 const BASE_PATH = path.resolve('wh40k-10e'); // put the cloned BSData repo here
