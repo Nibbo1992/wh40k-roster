@@ -1,1 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>WH40K Roster Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Roster Builder (Prototype)</h1>
+  <input id="search" placeholder="Search units">
+  <select id="factionFilter"><option value="">All Factions</option></select>
+  <select id="detachmentSelect"><option value="">No Detachment</option></select>
+</header>
+
+<main>
+  <section id="unitList"></section>
+  <section id="roster">
+    <h2>Your Roster</h2>
+    <div id="rosterList"></div>
+    <div id="pointsTotal">Points: 0</div>
+    <h3>Available Stratagems</h3>
+    <div id="stratList"></div>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
 
